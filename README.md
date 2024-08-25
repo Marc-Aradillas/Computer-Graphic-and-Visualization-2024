@@ -1,5 +1,16 @@
 # 3D Scene Visualization Project
 
+## Reflection and Insights
+
+### Design Approach
+My approach to designing software focuses on modularity and clarity. During this project, I prioritized creating a clean structure that separated different aspects of the 3D scene—such as object management, lighting, and camera controls—into distinct modules. This helped ensure that the code was both manageable and scalable. Working on this project honed my skills in scene organization and shader management, skills which I plan to carry into future projects.
+
+### Development Process
+I adopted an iterative development process, regularly testing small chunks of code to ensure each part worked correctly before moving on. This strategy helped me quickly identify and resolve issues. Throughout the milestones, I developed a deeper understanding of OpenGL’s intricacies, particularly in terms of how different components interact within a 3D space. The process also reinforced the importance of detailed planning and incremental progress in software development.
+
+### Application of Skills
+The knowledge and skills I gained from working on computational graphics and visualizations are invaluable for both my educational and professional pathways. Understanding the fundamentals of 3D rendering, lighting models, and texture mapping has broadened my technical capabilities and opened up new avenues for creating visually rich applications. These skills are directly applicable to roles in game development, simulation design, and any field that benefits from immersive visualizations.
+
 ## Overview
 
 This repository contains the code for a 3D scene visualization project developed using C++ and OpenGL. The project replicates a real-world scene using low-polygon 3D models, accurately projected textures, and custom lighting. It includes camera navigation controls for an interactive experience. The project was created as part of the CS 330 - Computational Graphics and Visualization course.
@@ -21,30 +32,6 @@ To run this project, you will need the following:
 - GLM (OpenGL Mathematics)
 - stb_image library for texture loading
 
-## Setup and Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/your-username/3d-scene-visualization.git
-    cd 3d-scene-visualization
-    ```
-
-2. **Build the project:**
-
-    Use your preferred C++ compiler or IDE to compile the project. Ensure that all dependencies (GLFW, GLM, stb_image) are correctly linked.
-
-    Example using g++:
-
-    ```bash
-    g++ -o 3dscene main.cpp SceneManager.cpp ShaderManager.cpp -lGL -lGLU -lglfw
-    ```
-
-3. **Run the executable:**
-
-    ```bash
-    ./3dscene
-    ```
 
 ## Usage
 
@@ -77,12 +64,4 @@ To run this project, you will need the following:
 - GLFW Library: [https://www.glfw.org/](https://www.glfw.org/)
 - GLM Library: [https://glm.g-truc.net/0.9.9/index.html](https://glm.g-truc.net/0.9.9/index.html)
 - stb_image Library: [https://github.com/nothings/stb](https://github.com/nothings/stb)
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with any improvements, bug fixes, or new features.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
